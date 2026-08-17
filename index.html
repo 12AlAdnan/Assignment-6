@@ -12,12 +12,12 @@
 
 <body>
     <!-- nav bar section -->
-    <section class="container mx-auto">
+    <section class="container mx-auto py-5">
         <div class="flex justify-between gird grid-cols-3">
             <div>
-                <h1 class="font-extrabold text-4xl">A-Ticket</h1>
+                <h1 class="font-extrabold raleway text-4xl">A-Ticket</h1>
             </div>
-            <div class="flex justify-between w-[447px] h-11 font-medium text-[18px]">
+            <div class="flex justify-between w-[447px] h-11 font-medium text-[18px] inter">
                 <a class="hover:text-[#1DD100]" href="#">Home</a>
                 <a class="hover:text-[#1DD100]" href="#">About</a>
                 <a class="hover:text-[#1DD100]" href="#">Destination</a>
@@ -34,6 +34,66 @@
                     <img src="./images/bus-icon.png" alt="" srcset="">
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- banner section -->
+    <section class="container mx-auto py-7">
+        <div
+            class="h-screen relative w-full bg-[url('./images/banner.png')] bg-cover bg-center bg-no-repeat rounded-xl">
+            <div class="text-center text-white space-y-9 pt-20">
+                <h1 class="font-extrabold text-6xl raleway">End-to-End Travel with <br> <span
+                        class="text-[#1DD100]">Amin Paribahan</span></h1>
+                <p class="text-white text-xl py-8 inter">Yes, you can run unit tests and view the results directly
+                    within the app. The <br> integrated testing features allow for a streamlined.</p>
+                <button class="bg-[#1DD100] rounded-lg w-40 h-16 font-bold text-xl hover:bg-green-500 inter">Buy
+                    Ticket</button>
+            </div>
+        </div>
+
+        <div class="absolute bottom-[-150px] left-0 right-0 flex justify-center gap-4">
+            <!-- Card 1 -->
+            <div class="flex items-center bg-white rounded-2xl w-[182px] h-[82px] border-b-2 border-[#1DD100] shadow-sm">
+                <div class="pl-5">
+                    <img class="w-9 h-9" src="./images/people.png" alt="Users">
+                </div>
+                <div class="inter px-3">
+                    <h2 class="font-bold text-2xl">
+                        500K+
+                    </h2>
+                    <p class="text-xs text-[#4e545f]">
+                        Registered users
+                    </p>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="flex items-center bg-white rounded-2xl w-[182px] h-[82px] border-b-2 border-[#1DD100] shadow-sm">
+                <div class="pl-5">
+                    <img class="w-9 h-9" src="./images/ticket-cupon.png" alt="Tickets">
+                </div>
+                <div class="inter px-3">
+                    <h2 class="font-bold text-2xl">
+                        1.7 lacks
+                    </h2>
+                    <p class="text-xs text-[#4e545f]">
+                        Tickets sold
+                    </p>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="flex items-center bg-white rounded-2xl w-[182px] h-[82px] border-b-2 border-[#1DD100] shadow-sm">
+                <div class="pl-5">
+                    <img class="w-9 h-9" src="./images/stoppage.png" alt="Bus">
+                </div>
+                <div class="inter px-3">
+                    <h2 class="font-bold text-2xl">
+                        80K+
+                    </h2>
+                    <p class="text-xs text-[#4e545f]">
+                        Rental partners
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
     <script src="./scripts/script.js"></script>
