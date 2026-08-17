@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- tailwind  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Amin Paribahan</title>
 </head>
+
 <body>
-    
+    <!-- nav bar section -->
+    <section class="container mx-auto">
+        <div class="flex justify-between gird grid-cols-3">
+            <div>
+                <h1 class="font-extrabold text-4xl">A-Ticket</h1>
+            </div>
+            <div class="flex justify-between w-[447px] h-11 font-medium text-[18px]">
+                <a class="hover:text-[#1DD100]" href="#">Home</a>
+                <a class="hover:text-[#1DD100]" href="#">About</a>
+                <a class="hover:text-[#1DD100]" href="#">Destination</a>
+                <a class="hover:text-[#1DD100]" href="#">Search</a>
+            </div>
+
+            <div class="flex w-32 h-14 items-center justify-center justify-evenly border-1 border-[#1DD100] rounded-xl">
+                <div class="">
+                    <h1 class="text-[#1DD100] font-bold text-xl">
+                        Bus
+                    </h1>
+                </div>
+                <div>
+                    <img src="./images/bus-icon.png" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/script.js"></script>
 </body>
+
 </html>
